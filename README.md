@@ -1,5 +1,5 @@
 # dns_lookup_tool
-The functionality of the DNS Lookup Tool is to perform a DNS lookup for a given domain name and display the IP address to the user. 
+#The functionality of the DNS Lookup Tool is to perform a DNS lookup for a given domain name and display the IP address to the user. 
 The technologies used in the development of this project include:
 
 Python - A high-level programming language used for backend development.
