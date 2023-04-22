@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DNS Lookup Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+<body>
+    <h1>DNS Lookup Tool</h1>
+    <form action="/lookup">
+        <label for="domain">Enter a domain name:</label>
+        <input type="text" name="domain" required>
+        <button type="submit">Lookup</button>
+    </form>
+    <div id="results"></div>
+    <script src="{{ url_for('static', filename='lookup.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DNS Lookup Results</title>
+</head>
+<body>
+    <h1>DNS Lookup Results for {{ domain }}</h1>
+    <ul>
+    {% for result in results %}
+        <li >{{ result }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
